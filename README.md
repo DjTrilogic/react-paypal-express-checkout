@@ -1,6 +1,11 @@
 # react-paypal-express-checkout
 React component that renders Paypal's express check out button
 
+# Forked!
+This is a fork of the original repo. I forked it so that I could implement the ability to send item information with the payment.
+
+I only edited `/dist/` rather than `/src` because my edits are very minor.
+
 ## Install
 
 ```bash
