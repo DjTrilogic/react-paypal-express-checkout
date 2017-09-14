@@ -4,9 +4,12 @@ React component that renders Paypal's express check out button
 # Forked!
 This is a fork of the original repo. I forked it so that I could implement the ability to send item information with the payment.
 
-Refer to [this documentation](https://developer.paypal.com/docs/api/payments/#payment_create_request) for item property syntax!
-
 I only edited `/dist/` rather than `/src` because my edits are very minor.
+
+### Added Necessary Props
+An `items` array. Refer to [this documentation](https://developer.paypal.com/docs/api/payments/#payment_create_request) for proper syntax.
+
+A `description`. This must include everything the `items` array includes but in a big ol' string!
 
 ## Install
 
