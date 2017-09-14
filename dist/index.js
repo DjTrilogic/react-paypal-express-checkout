@@ -130,7 +130,12 @@
 
                 var payment = function payment() {
                     return paypal.rest.payment.create(_this2.props.env, _this2.props.client, {
-                        transactions: [{ amount: { total: _this2.props.total, currency: _this2.props.currency } }]
+                        transactions: [
+                            { 
+                                amount: { total: _this2.props.total, currency: _this2.props.currency },
+                                items:this.props.items
+                            }
+                        ]
                     });
                 };
 
