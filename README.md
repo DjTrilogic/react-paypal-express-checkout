@@ -14,7 +14,7 @@ A `description`. This must include everything the `items` array includes but in 
 ## Install
 
 ```bash
-npm install --save react-paypal-express-checkout
+npm install --save https://github.com/quangogage/react-paypal-express-checkout/blob/master/README.md
 ```
 
 ## Usage
