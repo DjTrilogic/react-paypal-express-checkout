@@ -133,8 +133,8 @@
                         transactions: [
                             { 
                                 amount: { total: _this2.props.total, currency: _this2.props.currency },
-                                items:this.props.items,
-                                description:this.props.description                        
+                                item_list: { items:_this2.props.cart },                                
+                                description:_this2.props.description                                     
                             }
                         ]
                     });
