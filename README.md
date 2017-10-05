@@ -9,7 +9,15 @@ I only edited `/dist/` rather than `/src` because my edits are very minor.
 ### Added Necessary Props
 An `items` array. Refer to [this documentation](https://developer.paypal.com/docs/api/payments/#payment_create_request) for proper syntax.
 
-A `description`. This must include everything the `items` array includes but in a big ol' string!
+Items array object example:
+```{
+  name: "White Shirt",
+  quantity: 1,
+  price: 200, // Make sure this is correct! Paypal will not accept the payment if the combined total of all the items is not the same as the specified total purchase total
+  currency: "USD"
+}```
+
+If you wish to add options such as color, size, etc,. append it to the name string.
 
 ## Install
 
